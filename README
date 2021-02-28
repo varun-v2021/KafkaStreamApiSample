@@ -75,8 +75,10 @@ services:
     depends_on:
       - zoo
 
-2. Then start each spring boot application producer, processor and consumer
-3. We should be able to see the expected logs
+2. Hit localhost:9000 to open kafka manager portal, there create a cluster and add two topics namely numbers  (source topic),
+and squaredNumbers (sink topic) and save it.
+3. Then start each spring boot application producer, processor and consumer
+4. We should be able to see the expected logs
 
 # Reference
 
